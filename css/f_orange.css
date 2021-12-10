@@ -1,0 +1,203 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #FFFAF0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC',sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    background: #f05f5c;
+    color: white;
+    padding: 9px 26px;
+    border-radius: 30px;
+}
+header i{
+    margin-right: 3px;
+}
+
+h3{
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+p{
+    color: #707070;
+}
+
+img{
+    max-width: 100%;
+}
+
+p.lead{
+    color:black;
+    line-height: 31px;
+}
+
+
+
+#picture h1{
+    font-size: 300%;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#C1CDCD;
+    padding: 10px;
+    
+}
+
+#picture .intro{
+    background: rgba(0%,0%,0%,0.6);
+    padding: 0 40px;
+    width: fit-content;
+}
+#picture .jumbotron{
+    height: 70vh;
+    margin-bottom: 0px;
+    background-image: url(orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 86%;
+    background-color: white;
+}
+#picture .container{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#picture p{
+    font-weight: 100;
+    color:#FFFFDF;
+}
+
+header nav img{
+    width: 109px;
+}
+
+#picture .btn{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+#intro h4{
+    margin-top: 50px;
+    margin-bottom: 36px;
+    padding: 10px;
+    background-color: #f05f5c;
+    border-radius: 31px;
+    text-align: center;
+    color: white;
+}
+
+#qa h4{
+    margin-top: 50px;
+    margin-bottom: 36px;
+    padding: 10px;
+    background-color: #f05f5c;
+    border-radius: 31px;
+    text-align: center;
+    color: white;
+}
+
+#intro i{
+    margin-right: 6px;
+}
+
+#qa i{
+    margin-right: 6px;
+}
+
+header li{
+    margin: 0 10px;
+}
+
+header a{
+    font-family: 'Noto Sans TC',sans-serif;
+    font-size: large;
+}
+
+header .btn a{
+	text-decoration: none;
+	color:white;
+}
+#qa .card{
+
+    background-color: #FFFAF0;
+}
+
+#qa .btn{
+    border-radius: unset;
+    background: white;
+    color: black;
+}
+#accordionExample{
+    margin-bottom: 65px;
+}
+iframe{
+    margin-top: 20px;
+}
+footer{
+	border-top: 1px solid rgba(0,0,0,0.09);
+}
+footer img{
+    margin-top:10px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+footer h4{
+    font-size: 20px;
+    margin-top: 33px;
+    margin-bottom: 30px;
+
+}
+footer ul{
+    list-style: none;
+    padding: 0px;
+}
+footer ul a{
+	color: #707070;
+}
+footer a{
+	color:#f05f5c;
+}
+footer a:hover{
+	color:#f05f5c;
+}
+footer ul a:hover{
+	color: #707070;
+	text-decoration: none;
+	opacity: 0.8;
+}
+footer ul li{
+	margin-bottom: 10px;
+}
+@media only screen and (max-width:768px){
+    #picture .intro{
+        width: 68%
+    }
+}
+@media only screen and (max-width:400px){
+    #picture .intro{
+        width: 68%
+    }
+    #picture .intro p{
+        font-size:12px;
+    }
+}
+
+@media only screen and (max-width:368px){
+    #picture .intro{
+        
+        width: 68%
+    }
+    #picture .intro p{
+        font-size: 10px;
+    }
+}

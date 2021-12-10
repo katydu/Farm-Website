@@ -1,0 +1,48 @@
+h1,h2,h3,h4,h5,h6,p{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+a,span,li,label{
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	max-width:100%;
+}
+nav li{
+	    margin: 0 13px;
+}
+
+header i{
+    margin-right: 3px;
+}
+
+header a{
+    font-family: 'Noto Sans TC',sans-serif;
+    
+}
+
+nav a :hover{
+    color:#f05f5c ;
+}
+
+.btn{
+    font-family: 'Noto Sans TC',sans-serif;
+    background-color: #f05f5c;
+    padding: 7px 28px;
+    border-radius: 20px;
+    border: none;
+}
+.btn:hover{
+	opacity:0.8;
+	background-color: #f05f5c!important;
+}
+header .btn a{
+	text-decoration: none;
+	color:white;
+}
+#content h4{
+    padding: 40px;
+}
+
+#content p{
+    margin-top: 40px;
+}

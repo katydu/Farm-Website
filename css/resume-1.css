@@ -1,0 +1,156 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #FFFAF0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC',sans-serif;
+}
+
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    font-family: 'Noto Sans TC',sans-serif;
+    background: #f05f5c;
+    color: white;
+    padding: 9px 26px;
+    border-radius: 30px;
+}
+
+h3{
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+p{
+    color: #707070;
+}
+
+
+#intro .jumbotron{
+    background: url('../pictures/resume/01.jpg');
+    background-color: white;
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 70vh;
+    margin-bottom: 0px;
+}
+
+.carousel-inner > .item > img{
+    width: 80%;
+    margin: auto;
+}
+
+p.lead{
+    color:black;
+    line-height: 31px;
+}
+
+header nav img{
+    width: 109px;
+}
+
+header li{
+    margin: 0 10px;
+}
+
+header img{
+    max-width: 100%;
+}
+
+header a{
+    font-family: 'Noto Sans TC',sans-serif;
+    font-size: large;
+    color: gray
+}
+
+header a:hover{
+    color: #f05f5c;
+}
+
+#second{
+    padding: 80px 0px
+}
+
+#second h3{
+    margin-bottom: 80px;
+}
+
+#second img{
+    width: 178px;
+    border-radius: 100%;
+    margin-bottom: 13px;    
+    margin-top: 25px;
+}
+
+#second .btn{
+    float: right;
+}
+
+#second h5{
+    text-align: center;
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+#second p{
+    font-size: large;
+}
+
+i{
+    margin-right: 5px;
+}
+
+#second .row{
+    margin-bottom: 70px;
+    padding: 10px 0px;
+    border-bottom: dashed 2px;
+    border-color: gray;
+    padding-bottom: 70px;
+}
+
+footer span{
+    color: gray;
+}
+
+header .btn a{
+	text-decoration: none;
+	color:white;
+}
+.shadow{
+    transition: .5s ease;
+}
+    
+.shadow :hover{
+    box-shadow:
+    1px 1px white;
+
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition: .5s ease;
+}
+
+
+
+@media only screen and (min-width:992px){
+    header a{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    #second img{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #second h5{
+        margin-bottom: 22px;
+        margin-right: 3px;
+    }
+}
+
