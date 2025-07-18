@@ -7,5 +7,7 @@
 3. Knowing how to code RWD website
 4. asp.net framework
 
-## What I need to learnd more
-1. javascript
+## Website Link
+[網站連結](https://katydu.github.io/Farm-Website/index.html)
+
+
